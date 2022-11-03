@@ -1,7 +1,7 @@
 import React from 'react'
 import swal from 'sweetalert';
 
-const url = "http://localhost:8080/api/product";
+const url = "http://localhost:8080/api/products";
 
 const getProducts = async () => {
   let dataApi = await fetch(url)
