@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+.link-Item-Detail{
+    background-color: #D95E43;
+}
+
+.Items-container{
+    background-color: #3046bc;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 15px;
+    border-radius: 35px;
+    border: solid #D95E43 2px;
+
+}
+
+.Item-title{
+    
+    color: white;
+}
+
+.Item-description{
+    color: white;
+
+}
+
+.Item-category{
+    color: white;
+}
