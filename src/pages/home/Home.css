@@ -1,0 +1,11 @@
+.background{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.home-background{
+    background-color: blue;
+    justify-content: center;
+}

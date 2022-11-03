@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hackaton-front-grupo6
+  description: hackaton front grupo6
+  annotations:
+    team: Laboratory
+    product_owner: Pablo Duran
+    technical_lead: Fernando Moreno
+    monitoring_apm: "false"
+    golden_signals_enabled: "false"
+    gitlab.com/project-slug: 18486909/hackaton-front-grupo6
+    jira/project-key: CCMR
+    jira/application-name: cl-CCOM-LABORATORY
+    powered_by: backstage-web
+  tags:
+    - aws
+    - react
+    - s3
+    - terraform
+spec:
+  type: website
+  lifecycle: experimental
+  owner: Laboratory
+  system: cl-CCOM-LABORATORY
