@@ -1,11 +1,18 @@
 .background{
     background-color: blue;
     display: flex;
-    flex-direction: column;
-    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
 .home-background{
     background-color: blue;
     justify-content: center;
+}
+
+.home-fig img{
+    background-color: aqua;
+    border-radius: 60px;
+
 }

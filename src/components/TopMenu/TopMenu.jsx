@@ -10,20 +10,17 @@ const TopMenu = () => {
       <div className="top-menu-logo">
         <img className="logo-img" src={Logo} alt="ofertalo logo" />
       </div>
-      <Menu
-        theme="dark"
-        mode="horizontal"
-        defaultSelectedKeys={["1"]}
-        style={{ lineHeight: "64px" }}
-      >
-        <Menu.Item key="1">
-          <Link to="/"> Perfil </Link>
-        </Menu.Item>
-        <Menu.Item key="2">
-          <Link to="/User"> Mis ofertas </Link>
-        </Menu.Item>
-
-      </Menu>
+      <div className="header-links">
+        <Link className="menu-option" to="/">
+          Perfil
+        </Link>
+        <Link className="menu-option" to="/">
+          Ver Articulos
+        </Link>
+        <Link className="menu-option" to="/">
+          Mis Ofertas
+        </Link>
+      </div>
     </div>
   );
 };
